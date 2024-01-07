@@ -1,0 +1,29 @@
+ body {
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ .background-container {
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100%;
+ 	background-image: url('image/back.png');
+ 	/* Replace 'your-image.jpg' with your actual image path */
+ 	background-size: cover;
+ 	background-position: center;
+ 	z-index: -1;
+ 	/* Place the background container behind other content */
+ }
+
+.heading{
+	text-align: center;
+	font-weight: 900;
+}
+
+ .content1 {
+ 	position: relative;
+ 	z-index: 100;
+ 	/* Place the content above the background container */
+ }
